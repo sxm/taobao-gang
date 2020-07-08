@@ -6,7 +6,7 @@
 }
 
 .bg-dark {
-  background: black !important;
+  background-color:#0a0a0a !important;
 }
 
 .text-muted {
@@ -100,15 +100,20 @@
   color: #999;
 }
 
+.list-group-item {
+  background-color:#0a0a0a !important;
+  border:1px solid rgb(255, 255, 255) !important;
+}
+
+
+
 /*
  * Footer
  */
 .blog-footer {
   padding: 2.5rem 0;
-  color: #999;
+
   text-align: center;
-  background-color: #ffffff;
-  border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
